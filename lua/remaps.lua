@@ -5,13 +5,13 @@
 -- Function for normal mode key mapping to function
 --
 function normal_remap(keys,functionality)
-	vim.keymap.set("n",keys,functionality)
+	vim.keymap.set("n","<leader>" .. keys,functionality)
 end
 --
 -- Remap for leader
-normal_remap("<Leader>"," ")
+vim.g.mapleader = " "
 -- Remap for Ex cmd
-normal_remap("<Leader>x","Ex")
+normal_remap("x",vim.cmd.Ex)
 -- Remap for telescope
 -- Remap for mason
 -- Remap for lazy plugin

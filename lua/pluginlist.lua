@@ -1,6 +1,8 @@
 return {
 
+
     { 'numToStr/Comment.nvim', opts = {} },
+
 
     {
         "numToStr/Comment.nvim",
@@ -9,6 +11,7 @@ return {
         end
     },
 
+
     {
         "ellisonleao/gruvbox.nvim",
         priority = 1000,
@@ -16,13 +19,19 @@ return {
             vim.cmd("colorscheme gruvbox")
         end
     },
-    --
+    
     
     "williamboman/mason.nvim",
-    "williamboman/mason-lspconfig.nvim",
-    "neovim/nvim-lspconfig",
+    
+
+	"williamboman/mason-lspconfig.nvim",
+
+
+	"neovim/nvim-lspconfig",
+
 
     'folke/neodev.nvim', -- new
+
 
     {
         'hrsh7th/nvim-cmp',
@@ -36,6 +45,7 @@ return {
         },
     },
 
+
     {
         'nvim-treesitter/nvim-treesitter',
         build = ':TSUpdate',
@@ -43,9 +53,10 @@ return {
 
 
     { 
-        'nvim-telescope/telescope.nvim',
+        'nvim-telescope/telescope.nvim', tag = '0.1.5',
         dependencies = { 'nvim-lua/plenary.nvim' } 
     },
+
 
     {
         'nvim-telescope/telescope-fzf-native.nvim',
