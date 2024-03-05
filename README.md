@@ -34,7 +34,16 @@ Mason lsp manager which will be explained subsequentely
 
 - Provide a convinient mapping for each shortcut
 
+- Provide a convenient transparent ui to watch windows even while writing... 
+It requires your terminal to be already transparent in the case of windows which you can get modifying the settings of the shell at:
 
+```bash
+C:\Users\{username}\AppData\Local\Packages\Microsoft.WindowsTerminal_{number}\LocalState\settings.json
+```
+
+You need to set the opacity to your favourite value and the useAcrylic property to false.
+
+(As this is a windows configuration)[https://imgur.com/a/uhtEReq]
 
 ## Mappings
 

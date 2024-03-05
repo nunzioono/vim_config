@@ -62,6 +62,11 @@ return {
 	{
 	  'Exafunction/codeium.vim',
   		event = 'BufEnter'
-	}
+	},
+
+	{
+     "xiyaowong/transparent.nvim",
+     lazy = false
+	},
 
 }
