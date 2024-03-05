@@ -43,7 +43,7 @@ C:\Users\{username}\AppData\Local\Packages\Microsoft.WindowsTerminal_{number}\Lo
 
 You need to set the opacity to your favourite value and the useAcrylic property to false.
 
-![As this is a windows configuration](https://imgur.com/a/uhtEReq)
+![As this is a windows configuration](https://imgur.com/lQR8S1V)
 
 ## Mappings
 
