@@ -57,6 +57,11 @@ return {
                 theme = 'onedark',
             })
         end,
-    }
+    },
+
+	{
+	  'Exafunction/codeium.vim',
+  		event = 'BufEnter'
+	}
 
 }
