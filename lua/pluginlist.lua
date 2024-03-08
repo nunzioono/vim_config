@@ -10,16 +10,6 @@ return {
             require("Comment").setup()
         end
     },
-
-
-    {
-        "ellisonleao/gruvbox.nvim",
-        priority = 1000,
-        config = function()
-            vim.cmd("colorscheme gruvbox")
-        end
-    },
-    
     
     "williamboman/mason.nvim",
     
@@ -45,6 +35,13 @@ return {
         },
     },
 
+    {
+        "ellisonleao/gruvbox.nvim",
+        priority = 1000,
+        config = function()
+            vim.cmd("colorscheme gruvbox")
+        end
+    },
 
     {
         'nvim-lualine/lualine.nvim',
@@ -68,5 +65,19 @@ return {
      "xiyaowong/transparent.nvim",
      lazy = false
 	},
+	
+	{ 'wakatime/vim-wakatime', lazy = false },
 
+	{
+  	  "dustinblackman/oatmeal.nvim",
+    	cmd = { "Oatmeal" },
+  	  	keys = {
+    	    { "<leader>om", mode = "n", desc = "Start Oatmeal session" },
+    	},
+    	opts = {
+        	backend = "ollama",
+        	model = "codellama:latest",
+    	},
+	},
+	
 }

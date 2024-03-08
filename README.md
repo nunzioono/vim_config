@@ -43,7 +43,14 @@ C:\Users\{username}\AppData\Local\Packages\Microsoft.WindowsTerminal_{number}\Lo
 
 You need to set the opacity to your favourite value and the useAcrylic property to false.
 
-![As this is a windows configuration](https://imgur.com/lQR8S1V)
+(As this is a windows configuration)[https://imgur.com/a/uhtEReq]
+
+- Integrate the modern code assistants through outmeal, it requires to have installed both ollama and oatmeal before installing it in neovim. Both can be achieved through installation guides at these link:
+
+[https://github.com/oatmeal/oatmeal](https://github.com/dustinblackman/oatmeal)
+[https://github.com/olamorris/ollama](https://github.com/ollama/ollama)
+
+Also after installing ollama you need to pull codellama model, this can be done simply running ```ollama run codellama```
 
 ## Mappings
 
