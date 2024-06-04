@@ -62,10 +62,9 @@ return {
 	},
 
 	{
-     "xiyaowong/transparent.nvim",
-     lazy = false
+	  'tribela/vim-transparent'
 	},
-	
+
 	{ 'wakatime/vim-wakatime', lazy = false },
 
 	{
