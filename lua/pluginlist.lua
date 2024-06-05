@@ -82,4 +82,8 @@ return {
 	{
 		"numToStr/Comment.nvim"
 	},
+
+	{
+		'junegunn/vim-easy-align'
+	},
 }
