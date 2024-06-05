@@ -79,4 +79,7 @@ return {
     	},
 	},
 	
+	{
+		"numToStr/Comment.nvim"
+	},
 }
